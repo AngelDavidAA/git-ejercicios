@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
-import  ReactDOM, { render }  from "react-dom";
+import React from "react";
+import  ReactDOM from "react-dom";
 
 //componentes
 import App from "./App";
@@ -7,7 +7,8 @@ import App from "./App";
 ReactDOM.render(
     <React.StrictMode>
         <App></App>
-    </React.StrictMode>
+        
+    </React.StrictMode>,
+    
+    document.getElementById('root')
 )
-
-document.getElementById('root')
